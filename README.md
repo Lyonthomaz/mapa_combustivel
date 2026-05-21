@@ -1,16 +1,41 @@
-# React + Vite
+# ⛽ Abastecimento Inteligente
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
 
-Currently, two official plugins are available:
+O **Abastecimento Inteligente** é uma solução *serverless* de crowdsourcing e geolocalização voltada para o monitoramento de preços de combustíveis e infraestrutura de recarga elétrica em **São José do Rio Preto - SP** e **Mirassol - SP**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 O Problema
+O preço dos combustíveis varia drasticamente entre postos vizinhos. Além disso, a crescente demanda por veículos elétricos encontra escassez de informações centralizadas sobre pontos de recarga na região. O sistema resolve isso permitindo que usuários colaborem em tempo real.
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- **React.js (Vite):** Performance e agilidade no desenvolvimento.
+- **Tailwind CSS:** Interface responsiva e moderna.
+- **Google Maps API:** Georreferenciamento preciso e intuitivo.
+- **Lucide React:** Identidade visual e ícones limpos.
 
-## Expanding the ESLint configuration
+### Backend & Banco de Dados
+- **Firebase Authentication:** Autenticação segura via Google OAuth.
+- **Cloud Firestore:** Banco NoSQL para persistência de dados em tempo real.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Acessibilidade (Compromisso com a Inclusão)
+O projeto conta com um módulo dedicado de acessibilidade:
+- **Narração por Voz (Text-to-Speech):** Auxilia usuários com deficiência visual na navegação.
+- **Ajustes Visuais:** Modos de Alto Contraste, Monocromático e Inversão de cores para daltônicos e pessoas com fotossensibilidade.
+
+## 💡 Funcionalidades Principais
+*   **Crowdsourcing de Preços:** Usuários informam preços de combustíveis que alimentam o consenso do sistema.
+*   **Recarga Elétrica:** Mapeamento inteligente de postos com suporte para veículos elétricos.
+*   **Calculadora de Autonomia:** Ferramenta integrada para calcular quanto renderá o valor investido por litro ou kWh.
+*   **Filtros de Mapa:** Alternância entre visão de mapa e satélite.
+
+## 📦 Como rodar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/Lyonthomaz/mapa_combustivel.git](https://github.com/Lyonthomaz/mapa_combustivel.git)
