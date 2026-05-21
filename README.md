@@ -23,8 +23,7 @@ O preço dos combustíveis varia drasticamente entre postos vizinhos. Além diss
 - **Firebase Authentication:** Autenticação segura via Google OAuth.
 - **Cloud Firestore:** Banco NoSQL para persistência de dados em tempo real.
 
-### Acessibilidade (Compromisso com a Inclusão)
-O projeto conta com um módulo dedicado de acessibilidade:
+### Acessibilidade
 - **Narração por Voz (Text-to-Speech):** Auxilia usuários com deficiência visual na navegação.
 - **Ajustes Visuais:** Modos de Alto Contraste, Monocromático e Inversão de cores para daltônicos e pessoas com fotossensibilidade.
 
