@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 </p>
 
-O **Abastecimento Inteligente** é uma solução *serverless* de crowdsourcing e geolocalização voltada para o monitoramento de preços de combustíveis e infraestrutura de recarga elétrica em **São José do Rio Preto - SP** e **Mirassol - SP**.
+O **Abastecimento Inteligente** é uma solução *serverless* de crowdsourcing e geolocalização voltada para o monitoramento de preços de combustíveis e infraestrutura de recarga elétrica em **São José do Rio Preto - SP**
 
 ## 🚀 O Problema
 O preço dos combustíveis varia drasticamente entre postos vizinhos. Além disso, a crescente demanda por veículos elétricos encontra escassez de informações centralizadas sobre pontos de recarga na região. O sistema resolve isso permitindo que usuários colaborem em tempo real.
